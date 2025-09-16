@@ -12,33 +12,55 @@
       background-color: #f9f9f9;
       color: #333;
     }
+
     header, footer {
       background-color: #24292e;
       color: white;
       text-align: center;
       padding: 20px;
     }
+
     nav {
       text-align: center;
       margin: 20px 0;
     }
+
     nav a {
       margin: 0 10px;
       text-decoration: none;
       color: #24292e;
       font-weight: bold;
     }
+
     nav a:hover {
       color: #0366d6;
     }
+
     section {
       padding: 20px;
       max-width: 800px;
-      margin: auto;
-      border-bottom: 1px solid #ccc;
+      margin: 20px auto;
+      border-left: 5px solid #0366d6;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 5px;
     }
+
     h2 {
       color: #24292e;
+      margin-top: 0;
+    }
+
+    details {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #f0f4ff;
+      border-radius: 5px;
+    }
+
+    summary {
+      font-weight: bold;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -46,7 +68,9 @@
 
   <header>
     <h1>My Identity</h1>
-    <p>A personal reflection project</p>
+    <p>A Personal Reflection Project
+      <br> By Reyaan K
+    </p>
   </header>
 
   <nav>
@@ -60,44 +84,103 @@
     <a href="#gender">Sex / Gender</a>
   </nav>
 
+
   <section id="personal-social">
-    <h2>Personal and Social Identity Features (Lesson 1)</h2>
-    <p><!-- Write about your personal and social identity here --></p>
+    <h2>Personal and Social Identity Features</h2>
+    <details>
+      <summary>Roles / Community</summary>
+      <p><!-- personal and social identity--></p>
+    </details>
+    <details>
+      <summary>Friendships</summary>
+      <p><!-- friends, social circles, or groups  --></p>
+    </details>
   </section>
 
+  <!-- Name and Family -->
   <section id="name-family">
-    <h2>Name and Family (Lesson 2)</h2>
-    <p><!-- Write about your name and family here --></p>
+    <h2>Name and Family</h2>
+    <details>
+      <summary>My Name</summary>
+      <p><strong><!-- Your name here --></strong></p>
+    </details>
+    <details>
+      <summary>Family</summary>
+      <p><!-- family members/family relationships --></p>
+    </details>
   </section>
 
+  <!-- Important Places -->
   <section id="places">
-    <h2>Important Places (Lesson 3)</h2>
-    <p><!-- Write about important places in your life here --></p>
+    <h2>Important Places</h2>
+    <details>
+      <summary>Home</summary>
+      <p><!-- home or hometown --></p>
+    </details>
+    <details>
+      <summary>School / Work</summary>
+      <p><!--school, workplace, meaningful locations --></p>
+    </details>
+    <details>
+      <summary>Favorite Places</summary>
+      <p><!--important or favorite places --></p>
+    </details>
   </section>
 
+  <!-- Values / Hopes / Struggles -->
   <section id="values">
-    <h2>Values / Hopes and Dreams / Struggles and How You Overcome Them (Lesson 4)</h2>
-    <p><!-- Write about your values, hopes, dreams, and struggles here --></p>
-  </section>
-
+    <h2>Values / Hopes and Dreams </h2>
+    <details>
+      <summary>Values</summary>
+      <p><!-- core values and beliefs --></p>
+    </details>
+    <details>
+      <summary>Hopes and Dreams</summary>
+      <p><!-- aspirations or goals --></p>
+    </details>
+    
+  <!-- Music -->
   <section id="music">
-    <h2>Music (Lesson 5)</h2>
-    <p><!-- Write about music that influences you here --></p>
+    <h2>Music</h2>
+    <details>
+      <summary>Favorite Songs / Artists</summary>
+      <p><!-- List your favorite songs, artists, or genres --></p>
+    </details>
+    <details>
+      <summary>Influence of Music</summary>
+      <p><!-- How music affects or inspires you --></p>
+    </details>
   </section>
 
+  <!-- Traditions & Rituals -->
   <section id="traditions">
-    <h2>Traditions and Rituals (Lesson 6)</h2>
-    <p><!-- Write about traditions and rituals you follow here --></p>
+    <h2>Traditions and Rituals</h2>
+    <details>
+      <summary>Cultural Traditions</summary>
+      <p><!-- Describe cultural or family traditions --></p>
+    </details>
+    <details>
+      <summary>Personal Rituals</summary>
+      <p><!-- Describe personal habits or rituals --></p>
+    </details>
   </section>
 
+  <!-- Race -->
   <section id="race">
-    <h2>Race (Lesson 7)</h2>
-    <p><!-- Write about your race or cultural background here --></p>
+    <h2>Race</h2>
+    <details>
+      <summary>My Background</summary>
+      <p><!-- racial or ethnic identity --></p>
+    </details>
   </section>
 
+  <!-- Sex / Gender -->
   <section id="gender">
-    <h2>Sex / Gender (Lesson 8)</h2>
-    <p><!-- Write about your sex/gender identity here --></p>
+    <h2>Sex / Gender</h2>
+    <details>
+      <summary>Identity</summary>
+      <p><!-- sex or gender identity, pronouns --></p>
+    </details>
   </section>
 
   <footer>
